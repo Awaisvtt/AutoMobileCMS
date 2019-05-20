@@ -19,6 +19,12 @@ namespace AutoMobileCMS.Controllers
 
             return View();
         }
+        public ActionResult Shop()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
 
         public ActionResult Contact()
         {
